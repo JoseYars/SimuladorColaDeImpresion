@@ -16,7 +16,7 @@ public class Main {
         Cola colaC = new Cola();
 
         for (int i = 1; i <= numImp; i++) {
-            System.out.println("NOMBRE Y DIRECCION DEL ARCHIVO " + i + ":");
+            System.out.println("DIRECCION DEL ARCHIVO " + i + ":");
             String archivo = leer.nextLine();
             colaC.insertar(archivo);
         }
