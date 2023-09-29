@@ -8,6 +8,7 @@ public Cola() {
     atras = null;
     longitud = 0;
     }
+
     
 public void insertar(String dato) {
     Nodo nuevoNodo = new Nodo(dato);
