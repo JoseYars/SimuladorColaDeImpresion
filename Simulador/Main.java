@@ -6,13 +6,13 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in);
-
+        
         System.out.println("Cuantas impresiones quiere realizar?");
         int numImp = leer.nextInt();
 
         // Consumir la nueva línea después de leer el número
         leer.nextLine();
-
+        
         Cola colaC = new Cola();
 
         for (int i = 1; i <= numImp; i++) {
@@ -38,10 +38,10 @@ public class Main {
                 break;
             }
         }
-
+        
         leer.close();
     }
-
+    
     // Método para abrir el cuadro de diálogo de opciones de impresión del sistema para un archivo
     private static void abrirOpcionesDeImpresion(String filePath) {
         File archivo = new File(filePath);
