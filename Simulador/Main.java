@@ -1,8 +1,10 @@
+//Librerias Utilizadas para el programa
 import java.awt.Desktop;
 import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
 
+//Inicio de nuestra clase ejecutora 
 public class Main {
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in);
