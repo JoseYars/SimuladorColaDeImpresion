@@ -1,3 +1,4 @@
+//Setters and Getters de nuestra clase nodo
 public class Nodo {
     private String dato;
     private Nodo siguiente;
